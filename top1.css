@@ -1,0 +1,165 @@
+
+#p1{
+   position: absolute;
+   color: black;
+   top: 80px;
+   left: 180px;
+  font-size: 25px;
+}
+#p2{
+
+	 position: absolute;
+   color: black;
+   top: 80px;
+   left: 269px;
+   font-size: 25px;
+
+}
+#p3{
+
+	 position: absolute;
+   color: black;
+   top: 80px;
+   left: 400px;
+   font-size: 25px;
+
+}
+#p4{
+
+	 position: absolute;
+   color: black;
+   top: 80px;
+   left: 570px;
+   font-size: 25px;
+
+}
+#p5{
+
+	 position: absolute;
+   color: black;
+   top: 80px;
+   left: 700px;
+   font-size: 25px;
+
+}
+
+#p6{
+
+	 position: absolute;
+   color: black;
+   top: 80px;
+   left: 890px;
+   font-size: 25px;
+
+}
+
+#p7{
+
+	 position: absolute;
+  color: black;
+   top: 80px;
+   left: 1000px;
+   font-size: 25px;
+
+}
+#p8{
+
+	 position: absolute;
+  color: black;
+   top: 80px;
+   left:1050px;
+   font-size: 25px;
+
+}
+#p9{
+
+	 position: absolute;
+  color: black;
+   top: 80px;
+   left: 1200px;
+   font-size: 25px;
+
+}
+#p100{
+    position: absolute;
+   
+   top: 30px;
+   left: 800px;
+   font-size: 15px;
+}
+#p101{
+    position: absolute;
+   
+   top: 30px;
+   left: 900px;
+   font-size: 15px;
+}
+#i2{
+	position: absolute;
+	top: 10px;
+	left: 1200px;
+}
+.t{
+	height: 120px;
+	background-color: #C0C0C0;
+	border-width: 5px;
+	max-width: windows.width;
+}
+.m{
+     
+    width: windows.width;
+	
+	background-image: url("mytrain.jpg");
+	height:630px;
+
+}
+.mm{
+  position: relative;
+  height: 450px;
+  width: 260px;
+  top: 50px;
+  left: 1000px;
+  background-image: url("pres.jpg");
+  border-style: solid;
+  border-color: #C0C0C0;
+  border-width: 5px;
+  box-shadow: thick;
+  
+
+}
+#p11
+{
+  position: relative;
+  color: white;
+
+}
+#te2{
+	height: 30px;
+	width: 200px;
+}
+#te1{
+	height: 30px;
+	width: 200px;
+}
+.b1{
+  background-color: #4CAF50;
+  height: 30px;
+  width: 87px;
+  color: black;
+
+}
+.b2{
+  background-color: #4CAF50;
+  height: 40px;
+  width: 120px;
+  color: white;
+
+}
+.b22{
+  background-color: #4CAF50;
+  height: 40px;
+  width: 180px;
+  color: white;
+
+}
+

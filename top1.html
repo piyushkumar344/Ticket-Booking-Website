@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <link rel="stylesheet" href="top1.css">
+	<title></title>
+	
+ <style>
+ img {
+  opacity: 0.9;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  left :150px;
+  top: 15px;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+</style> 
+	
+</head>
+<body >
+	<div class="t">
+	<img src="im.jpg" align="left" height="120"  width="120">
+	<p id="p1" > Trains </p>
+	
+	<p id="p2"> Promotion </p>
+	
+	<a href="cancelbooking.php"><p id="p3">Cancel tickets</p></a>
+	<p id="p4">Holidays</p>
+	<p id="p5">IRCTC eWallet</p>
+    <p id="p6">Alerts</p>
+	<a href="logout.php"><p id="p7">LOGOUT</p></a>
+    
+	<a href="form.php"><button value="LOGIN" id="p100" class="b1" >LOGIN</button></a>
+	<a href="form.php"><button value="REGISTER" id="p101" class="b1" >REGISTER</button></a>
+	     
+	
+    <img id="i2" src="irctc.jpg" height="120" width="120">
+	
+	     <div class="dropdown">
+             <button class="dropbtn">MY  ACTIVITIES</button>
+                <div class="dropdown-content">
+                 <a href="myprofile.php">MY PROFILE</a>
+                <a href="myorders.php">MY TICKETS</a>
+                  <a href="cancelbooking.php">CANCEL BOOKING</a>
+				  <a href="logout.php">LOGOUT</a>
+                  </div>
+                 </div>
+		 
+		 
+	    
+	</div>
+
+	<div class="m">
+	    <div class="mm">
+			<center><img id="i3" src="form.jpg" height="100" width="140"></center>
+			
+				<center>
+					<form method="POST" action="count.php" >
+					  <select id="te1" name="a">
+						<option value="">FROM</option>
+						<option value="DHANBAD">DHANBAD</option>
+						<option value="KOLKATA">KOLKATA</option>
+						<option value="NEW DELHI">NEW DELHI</option>
+						<option value="MUMBAI">MUMBAI</option>
+						<option value="PATNA">PATNA</option>
+						<option value="ALLAHABAD">ALLAHABAD</option>
+						<option value="AJMER">AJMER</option>
+						<option value="SIALDAH">SIALDAH</option>
+						<option value="RANCHI">RANCHI</option>
+						<option value="AURANGABAD">AURANGABAD</option>
+						<option value="GWALIOR">GWALIOR</option>
+					</select>
+					  <br><br>
+					 <select id="te2" name="b">
+					 	<option value="">TO</option>
+						<option value="DHANBAD">DHANBAD</option>
+						<option value="KOLKATA">KOLKATA</option>
+						<option value="NEW DELHI">NEW DELHI</option>
+						<option value="MUMBAI">MUMBAI</option>
+						<option value="PATNA">PATNA</option>
+						<option value="ALLAHABAD">ALLAHABAD</option>
+						<option value="AJMER">AJMER</option>
+						<option value="SIALDAH">SIALDAH</option>
+						<option value="RANCHI">RANCHI</option>
+						<option value="AURANGABAD">AURANGABAD</option>
+						<option value="GWALIOR">GWALIOR</option>
+					</select> <br> <br>
+		      <input type="date" value="DD-MM-YYYY"  name="d" id="te1"> <br><br>
+              <input type="submit" value="FIND TRAINS" class="b2">
+              </form><br><br>
+			  <form method="POST" action="pnr.php">
+			  <input type="text" name="pnr" required id="te2"><br>
+			  <input type="submit" value="CHECK PNR STATUS" class="b22">
+			  </form>
+				</center>
+			
+			
+		</div>
+  
+
+
+	</div>
+
+</body>
+</html>
